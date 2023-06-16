@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+body{
+    max-width: 600px;
+    margin: auto;
+    color: #535353;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 25px;
+    background: linear-gradient(68.15deg, #f8da54 16.62%, #cc6708 85.61%); /* usado para ter um gradiente no background da página, é muito lindo*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 0 24px  ;
+    background-color: #535353;
+}
+
+
+header.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 8px;
+    column-gap: 24px;
+}
+
+header img{
+    width: 120px;
+    
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    transition: color 0.3s;
+}
+
+header a:hover{
+    border-bottom: 2px solid #fd4d07;
+    color: #fd4d07;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li + li{
+    margin-left: 24px;
+}
+
+
+h1, h2{
+    background-color: #fd7e07;
+    padding: 10px;
+    color: #fff;
+}
+
+h1{
+    margin: 0px;
+}
+
+.centro {
+    text-align: center;
+}
+
+ol, ul {
+    line-height: 30px;
+}
+
+.btn-youtube{
+    background-color: #fd4d07;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-youtube:hover{
+    background-color: #fd4d07af;
+    transition: 0.3s;
+}
+
+footer{
+    color: #fff;
+    background-color: #696969;
+    margin-top: 30px;
+    text-align: center;
+    padding: 24px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+footer a{
+    color: #fb7d4b;
+    text-decoration: none;
+    transition: color 0.3s;
+    border-bottom: 2px solid #fd4d07;
+}
+
+footer a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+h2, h3{
+    border-radius: 8px;
+}
+
+#video{
+    border: 5px solid #cc6708;
+    border-radius: 8px;
+}
+
+h3{
+    border-left: 3px solid #535353;
+    border-radius: 0%;
+    padding-left: 9px;
+
+    margin-top: 30px;
+}
+
+img{
+    margin-top: 12px;
+    border-radius: 9px;
+}

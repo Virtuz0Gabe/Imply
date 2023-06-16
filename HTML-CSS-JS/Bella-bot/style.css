@@ -1,0 +1,151 @@
+/* 
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #570368 16.62%, #372099 85.61%); /* usado para ter um gradiente no background da página, é muito lindo*/
+}
+
+
+header {
+    background-color: #3b3b3bbe;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+header img {
+    height: 72px;
+}
+
+
+header ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header a {
+    transition: color 0.3s;
+    color: aliceblue;
+    border-bottom: 2px solid #ebebeb;
+}
+
+header a:hover{
+    color: #7606f7;
+    border-bottom: #7606f7 2px solid;
+
+}
+
+
+.Conteudo {
+    border-top: 0.4px solid #ebebeb;
+    padding: 0 70px 0;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #ebebeb;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+}   
+
+.conteudo-principal-escrito h2 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito button{
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 185px;
+    height: 67px;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;    
+    font-weight: 400;
+    color: black;
+    
+}
+
+.conteudo-principal img{
+    height: 430px;
+}
+
+.conteudo-segundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 24px 0;
+    color: #ebebeb;
+}
+
+.conteudo-segundario h3{
+    border-top: 0.4px solid #ebebeb;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;    
+    font-weight: 400;
+}
+
+.conteudo-segundario ol {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    
+
+}
+
+
+footer {
+    padding: 32px;
+    border-top: 0.4px solid #ebebeb;
+    background-color: #3b3b3bbe;
+}
+
+footer img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.conteudo-principal-escrito button:hover{
+    transition: 0.3s;
+    background-color: #8f8f8f;
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito a{
+    color: #000;
+}

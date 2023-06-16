@@ -1,0 +1,207 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+a{
+    color: #f13235;
+    transition: color 0.3s;
+    text-decoration: none;
+    border-bottom: 1px solid #f13235;
+}
+a :hover{
+    color: #ebebeb;
+    border-bottom: 1px solid #ebebeb; 
+}
+*/
+
+h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #d20d10;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.dark{
+    background-color: #111111;
+    color: #ebebeb;
+}
+
+
+.dark-link {
+    padding: 2px 0;
+    color: #f13235;
+    transition: color 0.3s;
+    text-decoration: none;
+    border-bottom: 1px solid #f13235;
+}
+
+.dark-link:hover,
+.dark-link:focus {
+        color: #ebebeb;   
+        border-bottom: 1px solid #ebebeb;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header{
+    padding: 8px 32px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    row-gap: 8px;
+    column-gap: 24px;
+}
+
+header img{
+    width: 120px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li +li {
+    margin-left: 24px;
+}
+
+/*
+header a{
+    color: #f13235;
+    border-bottom: 1px solid;
+}
+header a:hover{
+    color: #ebebeb;
+}
+eu prefiro da cor vermelha
+*/ 
+
+.hero{
+    height: 320px;
+    padding: 24px;
+
+    background-image: url(../Imagens/images/banner.jpg);
+    background-size: cover;
+    background-position: center top 25%;
+
+    display: flex;
+    flex-direction: column; /* quando usamos esse comando os comandos abaixo são invertidos*/
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #ebebeb;
+    font-size: 35px;
+    background-color: #8f0406;
+    border-radius: 8%;
+    padding: 4px 8px;
+}
+
+.dots {
+    margin-top: 24px;
+    display: flex;
+}
+
+.dots button {
+    display: block;
+    background-color: #ebebeb;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    border: none;
+    cursor: pointer;
+}
+
+.dots button + button {
+    margin-left: 8px;
+}
+
+.dots .active {
+    background-color: #f13235;
+}
+
+.gallery{
+    padding: 64px 24px 96px;
+}
+
+.gallery h2 {
+    color: #111111;    
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-row figure {
+    flex: 1 1 250px; /* flex-grow / flex-shrink / flex-vbasis */
+
+}
+
+.gallery-row img {
+    width: 100%;
+    border-radius: 8%;
+    margin-bottom: 16px;
+}
+
+.history {
+    padding: 92px 24px 0;
+    border-top: 4px solid #d20d10;
+}
+
+.history .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 24px;
+    border-bottom: 1px solid #f13235;
+}
+
+.history .container .col{
+    flex: 1 1 350px;
+}
+
+.history .container .col img{
+    width: 100%;
+    display: block;
+}
+
+
+.history .container .col p{
+    line-height: 1.5;
+}
+
+.history p + p{
+    margin-top: 24px;
+}
+
+footer {
+    padding: 64px 24px;
+}

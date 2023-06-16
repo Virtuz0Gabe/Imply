@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+Fontes gamer
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+
+
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+*/
+
+
+
+body{
+    background-color: #dfdfdf;
+
+    font-family: 'Ubunto', sans-serif;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 450px;
+    margin: 5% auto 0 auto;
+    padding: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.form {
+    margin: 4px 0;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label{
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.form input {
+    height: 32px;
+    margin: 4px 0;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.form input:focus{
+    background: #f0f0f5;
+}
+
+.form button {
+    background: #ab47bc;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form button:hover {
+    background: #Ce93d8;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.separator {
+    background: #bbb;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.list-task {
+    margin: 12px 0;
+}
+
+.list-task ul {
+    list-style: none;
+}
+
+
+.list-task ul li {
+    background: #4db6ac;
+    height: 54px;
+    border: none;
+    border-radius: 4px;
+    margin: 4px 0;
+    color: #fff;
+    padding: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all 0.3s;
+}
+
+.list-task ul li:hover {
+    background: #80cbc4;
+}
+
+/* Botão de apagar */
+.list-task ul li button {
+    font-size: 15px;
+    padding: 8px;
+
+
+    border: none;
+    border-left: 1px solid #dfdfdf;
+    background: none;
+    color: #fdd7d7;
+    transition: all 0.3s;
+}
+
+.list-task ul li button:hover {
+    cursor: pointer;
+    color: #1c8d00;
+}
+
+
+
+.btn-clear {
+    background: none;
+    padding: 12px;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #ef5350;
+    border-top: 1px solid #ef5350;
+    transition: all 0.3s;
+}
+
+.btn-clear:hover {
+    background: #ff7777;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #f0f0f5;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.footer p {
+    color: #999;
+    font-size: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #999;
+    transition: all 0.3s;
+}
+
+.footer a:hover{
+    letter-spacing: 1px;
+}
